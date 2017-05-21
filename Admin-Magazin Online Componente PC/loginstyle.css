@@ -1,0 +1,80 @@
+body{
+	background-color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;margin:0;
+	font-size:12px;
+	color:#000;
+}
+.clear{
+	clear:both;
+}
+.loginheader{ 
+	width:100%; 
+	height:auto; 
+	text-align:center;
+}
+.logintitle{ 
+	font-size:26px; 
+	padding:25px 0 0 0px;
+	font-family: 'Belgrano'
+}
+
+#loginpanelwrap{
+	width:500px; 
+	margin:120px auto auto auto; 
+	background-color:#F5F5DC;
+	-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px; 
+	border-radius:10px;
+	border:6px #c0cdd2 solid;
+}
+
+.loginform{
+	padding:20px;
+}
+.loginform_row{
+	width:460px;
+	float:left;
+	clear:both;
+	margin:0 0 10px 0;
+}
+.loginform_row label{
+	width:100px;
+	float:left;
+	padding:5px 0 0px 0;
+	font-size:12px; 
+	color:#535E66; 
+	font-weight:bold; 
+	text-shadow:1px 1px #fff; 
+	text-align:left;
+}
+.loginform_input{
+	width:350px;
+	height:34px;
+	float:left;
+	padding:0px 0px 0 4px; 
+	background-color:#F4F6F7; 
+	border:1px #90A9B7 solid; 
+	color:#000;
+	-moz-border-radius:4px;-webkit-border-radius:4px;
+	border-radius:4px;
+}
+input.loginform_submit{
+	float:right; 
+	clear:both; 
+	margin:0px 5px 0 0px;
+	color:#fff;
+	background: #7dc44e;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	font-family:arial;
+	font-size:12px;
+	font-weight: bold;
+	padding:8px 15px;
+	text-align: center;
+	cursor:pointer; 
+	border:none;
+	text-shadow:1px 1px #4c9021;
+}
+.green:hover{ background-color:#006400;}
+
